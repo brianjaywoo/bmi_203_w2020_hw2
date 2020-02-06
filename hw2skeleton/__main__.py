@@ -8,6 +8,11 @@ if len(sys.argv) < 4:
     sys.exit(0)
 
 active_sites = read_active_sites(sys.argv[2])
+test = active_sites[0]
+#print(len(test))
+#new_test = [str(i).split() for i in test]
+print(test.name)
+
 
 # Choose clustering algorithm
 if sys.argv[1][0:2] == '-P':

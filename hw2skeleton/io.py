@@ -2,7 +2,6 @@ import glob
 import os
 from .utils import Atom, Residue, ActiveSite
 
-
 def read_active_sites(dir):
     """
     Read in all of the active sites from the given directory.
@@ -21,7 +20,6 @@ def read_active_sites(dir):
     print("Read in %d active sites"%len(active_sites))
 
     return active_sites
-
 
 def read_active_site(filepath):
     """
