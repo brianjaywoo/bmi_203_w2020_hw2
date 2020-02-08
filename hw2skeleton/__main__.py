@@ -1,6 +1,6 @@
 import sys
 from .io import read_active_sites, write_clustering, write_mult_clusterings
-from .cluster import cluster_by_partitioning, cluster_hierarchically
+from .cluster import cluster_by_partitioning, cluster_hierarchically, return_silhouette_score
 
 # Some quick stuff to make sure the program is called correctly
 if len(sys.argv) < 4:
@@ -8,19 +8,17 @@ if len(sys.argv) < 4:
     sys.exit(0)
 
 active_sites = read_active_sites(sys.argv[2])
-test = active_sites[0]
-#print(len(test))
-#new_test = [str(i).split() for i in test]
-print(test.name)
-
+clustering_type = sys.argv[1][0:2]
 
 # Choose clustering algorithm
-if sys.argv[1][0:2] == '-P':
+if clustering_type == '-P':
     print("Clustering using Partitioning method")
     clustering = cluster_by_partitioning(active_sites)
-    write_clustering(sys.argv[3], clustering)
+    silhouette_score = return_silhouette_score(clustering, clustering_type)
+    write_clustering(sys.argv[3], clustering, silhouette_score)
 
-if sys.argv[1][0:2] == '-H':
+if clustering_type == '-H':
     print("Clustering using hierarchical method")
     clusterings = cluster_hierarchically(active_sites)
+    silhouette_score = return_silhouette_score(clustering, clustering_type)
     write_mult_clusterings(sys.argv[3], clusterings)
