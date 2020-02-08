@@ -1,6 +1,5 @@
 from hw2skeleton import cluster
 from hw2skeleton import io
-import pandas as pd
 import os
 
 def test_similarity():
