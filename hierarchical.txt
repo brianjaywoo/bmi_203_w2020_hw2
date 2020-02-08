@@ -1,0 +1,1626 @@
+
+Cluster 0
+------------
+c
+l
+u
+s
+t
+e
+r
+
+Cluster 1
+------------
+['cluster', [['cluster', [['cluster', [['cluster', [['cluster', [['cluster', [['cluster', 37237,          number
+residue        
+ARG           4
+SER           2
+ASN           2
+LYS           2
+TYR           4
+GLU           4], ['cluster', 93456,          number
+residue        
+ARG           4
+ASN           2
+LYS           2
+ASP           2
+GLU           2
+TYR           4
+SER           2]],          number
+residue        
+ARG         4.0
+SER         2.0
+ASN         2.0
+LYS         2.0
+TYR         4.0
+GLU         4.0
+THR         2.0
+ASP         8.0], ['cluster', [['cluster', 85492,          number
+residue        
+ARG           4
+ASN           2
+LYS           2
+ASP           2
+GLU           2
+TYR           4
+SER           2], ['cluster', 26246,          number
+residue        
+ARG           4
+SER           2
+ASN           2
+LYS           2
+TYR           4
+GLU           4]],          number
+residue        
+ARG         4.0
+ASN         2.0
+LYS         2.0
+ASP         5.0
+GLU         2.0
+TYR         4.0
+SER         2.0
+THR         2.0]],          number
+residue        
+ARG         4.0
+SER         2.0
+ASN         2.0
+LYS         2.0
+TYR         4.0
+GLU         4.0
+THR         2.0
+ASP         6.0], ['cluster', [['cluster', [['cluster', [['cluster', 24634,          number
+residue        
+HIS          16
+ASP           4], ['cluster', [['cluster', 29773,          number
+residue        
+HIS          16
+ASP           4], ['cluster', 73183,          number
+residue        
+LYS           1
+THR           1
+ASP           4]],          number
+residue        
+HIS        16.0
+ASP         6.0
+LYS         2.0
+THR         2.0]],          number
+residue        
+HIS        16.0
+ASP         6.0
+LYS         2.0
+THR         2.0], ['cluster', [['cluster', 23812,          number
+residue        
+LYS           1
+SER           1
+ASP           2
+GLU           2], ['cluster', 93168,          number
+residue        
+GLU           3
+HIS           1
+LYS           1
+ASP           2]],          number
+residue        
+LYS         1.5
+SER         1.0
+ASP         5.0
+GLU         2.0
+THR         2.0]],          number
+residue        
+HIS       10.00
+ASP        5.25
+LYS        2.00
+THR        2.00], ['cluster', [['cluster', 50018,          number
+residue        
+LYS           1
+SER           1
+ASP           2
+GLU           2], ['cluster', 23760,          number
+residue        
+GLU           3
+HIS           1
+LYS           1
+ASP           2]],          number
+residue        
+LYS         1.5
+SER         1.0
+ASP         5.0
+GLU         2.0
+THR         2.0]],          number
+residue        
+HIS        7.00
+ASP        5.25
+LYS        2.00
+THR        2.00
+SER        2.00
+GLU        4.00]],          number
+residue        
+ARG         4.0
+SER         2.0
+ASN         2.0
+LYS         2.0
+TYR         4.0
+GLU         4.0
+THR         2.0
+ASP         5.0], ['cluster', [['cluster', [['cluster', [['cluster', [['cluster', [['cluster', [['cluster', [['cluster', 20856,          number
+residue        
+HIS           2
+ARG           6
+TRP           2
+PHE           4
+ASN           2
+LYS           2
+ASP           6], ['cluster', 71389,          number
+residue        
+HIS           2
+ARG           6
+TRP           2
+PHE           4
+LYS           2
+ASP           6
+LEU           2]],          number
+residue        
+HIS         2.0
+ARG         6.0
+TRP         2.0
+PHE         4.0
+ASN         2.0
+LYS         2.0
+ASP         7.0
+THR         2.0], ['cluster', 38031,          number
+residue        
+HIS           2
+ARG           6
+TRP           2
+PHE           4
+LYS           2
+ASP           6
+LEU           2]],          number
+residue        
+HIS        3.00
+ARG        6.00
+TRP        2.00
+PHE        4.00
+ASN        2.00
+LYS        2.00
+ASP        5.75
+THR        2.00], ['cluster', [['cluster', [['cluster', 27031,          number
+residue        
+HIS           3
+TRP           3
+PHE           3
+ASP           3
+GLY           3], ['cluster', 96099,          number
+residue        
+TYR           3
+HIS           3
+GLY           3]],          number
+residue        
+HIS         3.0
+TRP         3.0
+PHE         3.0
+ASP         5.5
+GLY         3.0
+LYS         2.0
+THR         2.0], ['cluster', [['cluster', [['cluster', 42633,          number
+residue        
+HIS           4
+LYS           1
+ASP           1], ['cluster', 26095,          number
+residue        
+HIS           4
+ASP           1]],          number
+residue        
+HIS         4.0
+LYS         1.5
+ASP         4.5
+THR         2.0], ['cluster', [['cluster', 52954,          number
+residue        
+HIS           4
+ASP           1], ['cluster', 7674,          number
+residue        
+HIS           4
+CYS           1
+ASP           1]],          number
+residue        
+HIS         4.0
+ASP         4.5
+LYS         2.0
+THR         2.0]],          number
+residue        
+HIS        4.00
+LYS        1.75
+ASP        6.25
+THR        2.00]],          number
+residue        
+HIS        3.00
+TRP        3.00
+PHE        3.00
+ASP        6.75
+GLY        3.00
+LYS        2.00
+THR        2.00]],          number
+residue        
+HIS       3.500
+ARG       6.000
+TRP       2.000
+PHE       4.000
+ASN       2.000
+LYS       2.000
+ASP       5.125
+THR       2.000], ['cluster', [['cluster', [['cluster', 38846,          number
+residue        
+TRP           2
+PHE           4
+ASP           4
+TYR           2
+GLU           2], ['cluster', 61242,          number
+residue        
+HIS           2
+GLU           2
+LYS           2
+ASP           4]],          number
+residue        
+TRP        2.00
+PHE        4.00
+ASP        4.25
+TYR        2.00
+GLU        2.00
+HIS        4.00
+LYS        2.00
+THR        2.00], ['cluster', [['cluster', [['cluster', [['cluster', 97612,          number
+residue        
+HIS           4
+ASP           1], ['cluster', 8208,          number
+residue        
+HIS           4
+GLU           1
+ASP           1]],          number
+residue        
+HIS         4.0
+ASP         4.5
+LYS         2.0
+THR         2.0], ['cluster', [['cluster', 57602,          number
+residue        
+HIS           4
+LYS           1
+ASP           1], ['cluster', 34047,          number
+residue        
+HIS           4
+ASP           1]],          number
+residue        
+HIS         4.0
+LYS         1.5
+ASP         4.5
+THR         2.0]],          number
+residue        
+HIS         4.0
+ASP         4.5
+LYS         2.0
+THR         2.0], ['cluster', [['cluster', 94372,          number
+residue        
+HIS           4
+GLU           1
+ASP           1], ['cluster', 58445,          number
+residue        
+HIS           4
+GLU           1
+ASP           2]],          number
+residue        
+HIS         4.0
+GLU         1.0
+ASP         4.5
+LYS         2.0
+THR         2.0]],          number
+residue        
+HIS         4.0
+ASP         4.5
+LYS         2.0
+THR         2.0]],          number
+residue        
+TRP       2.000
+PHE       4.000
+ASP       4.375
+TYR       2.000
+GLU       2.000
+HIS       4.000
+LYS       2.000
+THR       2.000]],          number
+residue        
+HIS      3.7500
+ARG      6.0000
+TRP      2.0000
+PHE      4.0000
+ASN      2.0000
+LYS      2.0000
+ASP      5.1875
+THR      2.0000
+SER      2.0000
+GLU      4.0000], ['cluster', [['cluster', [['cluster', 41719,          number
+residue        
+LYS           2
+SER           2
+ASP           4
+GLU           4], ['cluster', [['cluster', 49624,          number
+residue        
+LYS           2
+SER           2
+ASP           4
+GLU           4], ['cluster', 40084,          number
+residue        
+GLU           4
+LYS           4
+ASP           4]],          number
+residue        
+LYS         2.0
+SER         2.0
+ASP         6.0
+GLU         4.0
+THR         2.0]],          number
+residue        
+LYS         2.0
+SER         2.0
+ASP         6.0
+GLU         4.0
+THR         2.0], ['cluster', [['cluster', [['cluster', [['cluster', 83741,          number
+residue        
+GLU           4
+LYS           8
+ASP           8], ['cluster', 28672,          number
+residue        
+HIS          32
+ASP           8]],          number
+residue        
+GLU         4.0
+LYS         5.0
+ASP         8.0
+THR         2.0], ['cluster', 69893,          number
+residue        
+HIS           4
+ASN           8
+LYS           4
+ASP           8
+GLU           4]],          number
+residue        
+GLU         4.0
+LYS         3.5
+ASP         8.0
+THR         2.0], ['cluster', [['cluster', [['cluster', [['cluster', 91796,          number
+residue        
+HIS          24
+ASP           6], ['cluster', 54203,          number
+residue        
+GLU           6
+LYS           6
+ASP           6]],          number
+residue        
+HIS        24.0
+ASP         7.0
+LYS         2.0
+THR         2.0], ['cluster', 53272,          number
+residue        
+LYS           2
+THR           2
+ASP           8]],          number
+residue        
+HIS        24.0
+ASP         7.5
+LYS         2.0
+THR         2.0], ['cluster', 47023,          number
+residue        
+LYS           2
+THR           2
+ASP           8]],          number
+residue        
+HIS       24.00
+ASP        7.75
+LYS        2.00
+THR        2.00]],          number
+residue        
+GLU        4.00
+LYS        2.75
+ASP        6.25
+THR        2.00
+HIS        4.00]],          number
+residue        
+LYS        2.00
+SER        2.00
+ASP        5.25
+GLU        4.00
+THR        2.00
+HIS        4.00]],           number
+residue         
+HIS      3.87500
+ARG      6.00000
+TRP      2.00000
+PHE      4.00000
+ASN      2.00000
+LYS      2.00000
+ASP      5.21875
+THR      2.00000
+SER      2.00000
+GLU      4.00000], ['cluster', [['cluster', [['cluster', [['cluster', [['cluster', [['cluster', [['cluster', 10701,          number
+residue        
+SER          12
+LYS          12
+ASP          48], ['cluster', 32054,          number
+residue        
+GLU           1
+LEU           1
+ALA           1]],          number
+residue        
+SER        12.0
+LYS         7.0
+ASP        28.0
+THR         2.0], ['cluster', 10814,          number
+residue        
+TRP           6
+PHE           6
+CYS           2]],          number
+residue        
+SER       12.00
+LYS        4.50
+ASP       16.25
+THR        2.00
+HIS        4.00], ['cluster', [['cluster', [['cluster', 39117,          number
+residue        
+HIS           4
+ASN           8
+LYS           4
+ASP           8
+GLU           4], ['cluster', [['cluster', 34958,          number
+residue        
+HIS           4
+ASN           8
+LYS           4
+ASP           8
+GLU           4], ['cluster', 98170,          number
+residue        
+ARG           4
+LYS           4
+THR           8
+ASP           8]],          number
+residue        
+HIS         4.0
+ASN         8.0
+LYS         3.0
+ASP         8.0
+GLU         4.0
+THR         2.0]],          number
+residue        
+HIS         4.0
+ASN         8.0
+LYS         3.0
+ASP         8.0
+GLU         4.0
+THR         2.0], ['cluster', 35014,          number
+residue        
+HIS           4
+ASN           8
+LYS           4
+ASP           8
+GLU           4]],          number
+residue        
+HIS        4.00
+ASN        8.00
+LYS        2.50
+ASP        6.25
+GLU        4.00
+THR        2.00]],          number
+residue        
+SER        7.00
+LYS        3.25
+ASP       10.75
+THR        2.00
+HIS        4.00
+GLU        4.00], ['cluster', [['cluster', 37224,          number
+residue        
+TRP           9
+PHE           9
+CYS           3], ['cluster', 73462,          number
+residue        
+HIS          16
+ASP           4]],          number
+residue        
+TRP         9.0
+PHE         9.0
+CYS         3.0
+LYS         2.0
+THR         2.0
+ASP         8.0]],          number
+residue        
+SER       4.500
+LYS       2.625
+ASP       7.375
+THR       2.000
+HIS       4.000
+GLU       4.000], ['cluster', [['cluster', 82886,          number
+residue        
+GLY           2
+LYS           4
+THR           6
+ASP           6], ['cluster', 64258,          number
+residue        
+HIS           9
+ASP           6]],          number
+residue        
+GLY         2.0
+LYS         3.0
+THR         4.0
+ASP         7.0]],          number
+residue        
+SER      3.2500
+LYS      2.3125
+ASP      5.6875
+THR      2.0000
+HIS      4.0000
+GLU      4.0000], ['cluster', [['cluster', 18773,          number
+residue        
+HIS           4
+PRO           1
+LYS           1
+ASP           2], ['cluster', 276,          number
+residue        
+HIS           4
+ASP           1]],          number
+residue        
+HIS       4.000
+PRO       1.000
+LYS       1.500
+ASP       3.625
+SER       2.000
+GLU       4.000
+THR       2.000]],           number
+residue         
+SER      2.62500
+LYS      2.15625
+ASP      4.84375
+THR      2.00000
+HIS      4.00000
+GLU      4.00000]],            number
+residue          
+HIS      3.875000
+ARG      6.000000
+TRP      2.000000
+PHE      4.000000
+ASN      2.000000
+LYS      2.000000
+ASP      4.609375
+THR      2.000000
+SER      2.000000
+GLU      4.000000], ['cluster', [['cluster', [['cluster', [['cluster', [['cluster', 94719,          number
+residue        
+TRP           2
+PHE           1
+THR           2
+ASP           6
+GLU           2], ['cluster', [['cluster', 29047,          number
+residue        
+HIS           2
+GLU           2
+LYS           2
+ASP           4], ['cluster', [['cluster', 57481,          number
+residue        
+HIS           2
+GLU           2
+LYS           2
+ASP           4], ['cluster', [['cluster', 63634,          number
+residue        
+HIS           2
+GLU           2
+LYS           2
+ASP           4], ['cluster', 39939,          number
+residue        
+LYS           2
+SER           2
+ASP           4
+GLU           4]],          number
+residue        
+HIS         2.0
+GLU         2.0
+LYS         2.0
+ASP         6.0
+THR         2.0]],          number
+residue        
+HIS         2.0
+GLU         2.0
+LYS         2.0
+ASP         6.0
+THR         2.0]],          number
+residue        
+HIS         2.0
+GLU         2.0
+LYS         2.0
+ASP         6.0
+THR         2.0]],          number
+residue        
+TRP        2.00
+PHE        1.00
+THR        2.00
+ASP        5.25
+GLU        2.00
+HIS        4.00
+LYS        2.00], ['cluster', [['cluster', [['cluster', [['cluster', 55996,          number
+residue        
+ARG           2
+TRP           2
+THR           4
+ASP           3
+GLU           2], ['cluster', 68578,          number
+residue        
+ARG           2
+TRP           1
+THR           4
+ASP           3
+GLU           2]],          number
+residue        
+ARG         2.0
+TRP         2.0
+THR         3.0
+ASP         5.5
+GLU         2.0
+LYS         2.0], ['cluster', [['cluster', 28919,          number
+residue        
+ARG           2
+SER           1
+THR           4
+ASP           4
+TYR           1
+GLU           2], ['cluster', 83394,          number
+residue        
+ARG           2
+TRP           1
+SER           1
+THR           4
+ASP           4
+TYR           1
+GLU           2]],          number
+residue        
+ARG         2.0
+SER         1.0
+THR         3.0
+ASP         6.0
+TYR         1.0
+GLU         2.0
+LYS         2.0]],          number
+residue        
+ARG        2.00
+TRP        2.00
+THR        2.50
+ASP        6.75
+GLU        2.00
+LYS        2.00], ['cluster', [['cluster', 73624,          number
+residue        
+HIS           6
+GLU           2
+ASP           4], ['cluster', 22711,          number
+residue        
+TRP           2
+PHE           4
+ASP           4
+TYR           2
+GLU           2]],          number
+residue        
+HIS         6.0
+GLU         2.0
+ASP         6.0
+LYS         2.0
+THR         2.0]],          number
+residue        
+ARG       2.000
+TRP       2.000
+THR       2.250
+ASP       5.625
+GLU       2.000
+LYS       2.000
+HIS       4.000]],          number
+residue        
+TRP       2.000
+PHE       1.000
+THR       2.000
+ASP       4.875
+GLU       2.000
+HIS       4.000
+LYS       2.000], ['cluster', [['cluster', [['cluster', 8304,          number
+residue        
+GLU           1
+LYS           2
+ASP           2], ['cluster', 17526,          number
+residue        
+HIS           8
+LYS           2
+ASP           2]],          number
+residue        
+GLU        1.00
+LYS        2.00
+ASP        3.25
+HIS        4.00
+THR        2.00], ['cluster', [['cluster', 84035,          number
+residue        
+HIS           4
+GLU           1
+ASP           2], ['cluster', 50362,          number
+residue        
+HIS           4
+ASP           1]],          number
+residue        
+HIS        4.00
+GLU        1.00
+ASP        3.25
+LYS        2.00
+THR        2.00]],          number
+residue        
+GLU        2.50
+LYS        2.00
+ASP        4.25
+HIS        4.00
+THR        2.00
+SER        2.00]],          number
+residue        
+TRP      2.0000
+PHE      1.0000
+THR      2.0000
+ASP      4.4375
+GLU      3.0000
+HIS      4.0000
+LYS      2.0000
+SER      2.0000], ['cluster', [['cluster', 56394,          number
+residue        
+TRP           1
+PHE           1
+THR           1
+ASP           3
+GLU           1], ['cluster', 3733,          number
+residue        
+LYS           2
+THR           1
+ASP           3
+GLU           1
+SER           1]],          number
+residue        
+TRP         1.0
+PHE         1.0
+THR         1.0
+ASP         3.5
+GLU         2.5
+LYS         2.0
+SER         2.0]],           number
+residue         
+TRP      2.00000
+PHE      1.00000
+THR      2.00000
+ASP      4.21875
+GLU      3.50000
+HIS      4.00000
+LYS      2.00000
+SER      2.00000]],            number
+residue          
+HIS      3.875000
+ARG      6.000000
+TRP      2.000000
+PHE      4.000000
+ASN      2.000000
+LYS      2.000000
+ASP      4.304688
+THR      2.000000
+SER      2.000000
+GLU      4.000000]],          number
+residue        
+ARG      3.0000
+SER      2.0000
+ASN      2.0000
+LYS      2.0000
+TYR      4.0000
+GLU      3.5000
+THR      2.5000
+ASP      4.4375
+TRP      1.0000
+HIS      4.0000], ['cluster', [['cluster', [['cluster', 37438,          number
+residue        
+ARG           2
+TRP           1
+THR           4
+ASP           3
+GLU           2], ['cluster', 42074,          number
+residue        
+ARG           2
+TRP           1
+THR           4
+ASP           4
+TYR           1
+GLU           2]],          number
+residue        
+ARG        2.00
+TRP        1.00
+THR        3.00
+ASP        3.75
+GLU        2.00
+HIS        4.00
+LYS        2.00], ['cluster', [['cluster', 78796,          number
+residue        
+ARG           2
+SER           1
+THR           4
+ASP           4
+TYR           1
+GLU           2], ['cluster', [['cluster', 57370,          number
+residue        
+LYS           1
+SER           1
+ASP           2
+GLU           2], ['cluster', 33838,          number
+residue        
+ASN           1
+LYS           1
+ASP           3
+GLU           1
+SER           1]],          number
+residue        
+LYS         1.5
+SER         1.0
+ASP         5.0
+GLU         2.0
+THR         2.0]],          number
+residue        
+ARG       2.000
+SER       1.500
+THR       3.000
+ASP       4.625
+TYR       1.000
+GLU       3.000
+LYS       2.000
+HIS       4.000]],          number
+residue        
+ARG       2.000
+TRP       1.000
+THR       3.000
+ASP       3.875
+GLU       3.000
+HIS       4.000
+LYS       2.000
+SER       2.000]],           number
+residue         
+ARG      2.50000
+SER      2.00000
+ASN      2.00000
+LYS      2.00000
+TYR      4.00000
+GLU      3.25000
+THR      2.75000
+ASP      4.15625
+TRP      1.00000
+HIS      4.00000], ['cluster', [['cluster', [['cluster', [['cluster', [['cluster', 93192,          number
+residue        
+GLU          12
+GLY           6
+ALA           6], ['cluster', [['cluster', 81563,          number
+residue        
+GLU          12
+GLY           6
+ALA           6], ['cluster', [['cluster', 70919,          number
+residue        
+GLU          12
+GLY           6
+ALA           6], ['cluster', [['cluster', 27312,          number
+residue        
+GLU          12
+GLY           6
+ALA           6], ['cluster', 39299,          number
+residue        
+GLU          12
+LYS          18
+GLY           6
+ALA           6]],          number
+residue        
+GLU        12.0
+GLY         6.0
+ALA         6.0
+LYS         2.0
+THR         2.0
+ASP         8.0]],          number
+residue        
+GLU        12.0
+GLY         6.0
+ALA         6.0
+LYS         2.0
+THR         2.0
+ASP         8.0]],          number
+residue        
+GLU        12.0
+GLY         6.0
+ALA         6.0
+LYS         2.0
+THR         2.0
+ASP         8.0]],          number
+residue        
+GLU        12.0
+GLY         6.0
+ALA         6.0
+LYS         2.0
+THR         2.0
+ASP         8.0], ['cluster', [['cluster', [['cluster', 81859,          number
+residue        
+SER           4
+LYS           4
+ASP          16], ['cluster', 82238,          number
+residue        
+TYR           1
+HIS           1
+GLY           1]],          number
+residue        
+SER         4.0
+LYS         3.0
+ASP        12.0
+THR         2.0], ['cluster', [['cluster', 42296,          number
+residue        
+LYS           4
+SER           4
+ASP           8
+GLU           8], ['cluster', 94652,          number
+residue        
+LYS           2
+THR           2
+ASP           8]],          number
+residue        
+LYS         3.0
+SER         4.0
+ASP         8.0
+GLU         8.0
+THR         2.0]],          number
+residue        
+SER        4.00
+LYS        2.50
+ASP        8.25
+THR        2.00
+HIS        4.00]],          number
+residue        
+GLU         8.0
+GLY         6.0
+ALA         6.0
+LYS         2.0
+THR         2.0
+ASP         6.0
+SER         2.0], ['cluster', [['cluster', [['cluster', 23319,          number
+residue        
+LYS           1
+SER           1
+ASP           2
+GLU           2], ['cluster', 25878,          number
+residue        
+GLU           1
+LYS           2
+ASP           2]],          number
+residue        
+LYS         1.5
+SER         1.0
+ASP         5.0
+GLU         2.0
+THR         2.0], ['cluster', [['cluster', [['cluster', [['cluster', 98797,          number
+residue        
+GLU           1
+LEU           1
+ALA           1], ['cluster', 34563,          number
+residue        
+HIS           4
+GLU           1
+ASP           2]],          number
+residue        
+GLU         1.0
+LEU         1.0
+ALA         1.0
+LYS         2.0
+THR         2.0
+ASP         8.0], ['cluster', [['cluster', [['cluster', 42202,          number
+residue        
+TRP           2
+PHE           2
+ASP           6], ['cluster', 83227,          number
+residue        
+TRP           2
+PHE           2
+THR           2
+ASP           6
+GLU           1]],          number
+residue        
+TRP         2.0
+PHE         2.0
+ASP         7.0
+LYS         2.0
+THR         2.0], ['cluster', [['cluster', [['cluster', 46975,          number
+residue        
+TRP           2
+PHE           2
+THR           2
+ASP           6
+GLU           2], ['cluster', 17622,          number
+residue        
+TRP           2
+PHE           1
+THR           2
+ASP           6
+GLU           2]],          number
+residue        
+TRP         2.0
+PHE         2.0
+THR         2.0
+ASP         7.0
+GLU         2.0
+LYS         2.0], ['cluster', 19267,          number
+residue        
+TRP           2
+PHE           2
+THR           2
+ASP           6
+GLU           2]],          number
+residue        
+TRP         2.0
+PHE         2.0
+THR         2.0
+ASP         7.5
+GLU         2.0
+LYS         2.0]],          number
+residue        
+TRP         2.0
+PHE         2.0
+ASP         7.5
+LYS         2.0
+THR         2.0]],          number
+residue        
+GLU        1.00
+LEU        1.00
+ALA        1.00
+LYS        2.00
+THR        2.00
+ASP        6.25
+HIS        4.00], ['cluster', [['cluster', [['cluster', 25551,          number
+residue        
+LYS           2
+THR           2
+ASP           6
+GLU           2
+SER           2], ['cluster', [['cluster', 41729,          number
+residue        
+LYS           4
+THR           2
+ASP           4
+GLU           2
+SER           2], ['cluster', 46042,          number
+residue        
+HIS           6
+GLU           2
+ASP           4]],          number
+residue        
+LYS         3.0
+THR         2.0
+ASP         6.0
+GLU         2.0
+SER         2.0]],          number
+residue        
+LYS         2.0
+THR         2.0
+ASP         7.0
+GLU         2.0
+SER         2.0], ['cluster', [['cluster', [['cluster', 36257,          number
+residue        
+LYS           1
+SER           1
+ASP           2
+GLU           2], ['cluster', 70005,          number
+residue        
+ASN           1
+LYS           1
+ASP           3
+GLU           1
+SER           1]],          number
+residue        
+LYS         1.5
+SER         1.0
+ASP         5.0
+GLU         2.0
+THR         2.0], ['cluster', [['cluster', [['cluster', 81697,          number
+residue        
+LYS           1
+SER           1
+ASP           2
+GLU           2], ['cluster', 82212,          number
+residue        
+ASN           1
+LYS           1
+ASP           2
+GLU           1
+SER           1]],          number
+residue        
+LYS         1.5
+SER         1.0
+ASP         5.0
+GLU         2.0
+THR         2.0], ['cluster', [['cluster', 3458,          number
+residue        
+LYS           2
+THR           1
+ASP           3
+GLU           1
+SER           1], ['cluster', 85232,          number
+residue        
+ASN           1
+LYS           1
+ASP           3
+GLU           1
+SER           1]],          number
+residue        
+LYS         2.0
+THR         1.5
+ASP         5.5
+GLU         1.0
+SER         1.0]],          number
+residue        
+LYS        1.75
+SER        1.00
+ASP        6.50
+GLU        2.00
+THR        2.00]],          number
+residue        
+LYS        1.75
+SER        1.00
+ASP        6.50
+GLU        2.00
+THR        2.00]],          number
+residue        
+LYS        2.00
+THR        2.00
+ASP        5.75
+GLU        2.00
+SER        2.00
+HIS        4.00]],          number
+residue        
+GLU       2.500
+LEU       1.000
+ALA       1.000
+LYS       2.000
+THR       2.000
+ASP       5.125
+HIS       4.000
+SER       2.000]],          number
+residue        
+LYS        1.75
+SER        1.50
+ASP        4.50
+GLU        3.00
+THR        2.00]],          number
+residue        
+GLU      5.7500
+GLY      4.5000
+ALA      6.0000
+LYS      2.0000
+THR      2.0000
+ASP      5.1875
+SER      2.0000
+ILE      3.0000
+HIS      4.0000], ['cluster', [['cluster', [['cluster', [['cluster', [['cluster', [['cluster', 14181,          number
+residue        
+ARG           1
+LYS           1
+THR           1
+ASP           2
+ASN           1
+TYR           1
+SER           2], ['cluster', 46495,          number
+residue        
+ARG           1
+SER           1
+LYS           1
+ASP           4]],          number
+residue        
+ARG         1.0
+LYS         1.5
+THR         1.5
+ASP         5.0
+ASN         1.0
+TYR         1.0
+SER         2.0], ['cluster', 4629,          number
+residue        
+ARG           1
+LYS           1
+THR           1
+ASP           2
+ASN           1
+TYR           1
+SER           2]],          number
+residue        
+ARG        1.00
+LYS        1.75
+THR        1.75
+ASP        6.50
+ASN        1.00
+TYR        1.00
+SER        2.00], ['cluster', [['cluster', [['cluster', [['cluster', [['cluster', 32088,          number
+residue        
+ARG           2
+LYS           2
+THR           2
+ASN           2
+ASP           2
+TYR           2
+SER           4], ['cluster', 91911,          number
+residue        
+ARG           2
+LYS           2
+THR           2
+ASP           4
+ASN           2
+TYR           2
+SER           4]],          number
+residue        
+ARG         2.0
+LYS         2.0
+THR         2.0
+ASN         2.0
+ASP         5.0
+TYR         2.0
+SER         4.0], ['cluster', 7780,          number
+residue        
+ARG           2
+LYS           2
+THR           2
+ASP           4
+ASN           2
+TYR           2
+SER           4]],          number
+residue        
+ARG         2.0
+LYS         2.0
+THR         2.0
+ASN         2.0
+ASP         6.5
+TYR         2.0
+SER         4.0], ['cluster', 9776,          number
+residue        
+ARG           2
+LYS           2
+THR           2
+ASN           2
+ASP           2
+TYR           2
+SER           4]],          number
+residue        
+ARG        2.00
+LYS        2.00
+THR        2.00
+ASN        2.00
+ASP        7.25
+TYR        2.00
+SER        4.00], ['cluster', 43878,          number
+residue        
+LYS           2
+THR           2
+ASP           8]],          number
+residue        
+ARG       2.000
+LYS       2.000
+THR       2.000
+ASN       2.000
+ASP       7.625
+TYR       2.000
+SER       4.000]],          number
+residue        
+ARG       1.000
+LYS       1.875
+THR       1.750
+ASP       5.250
+ASN       1.000
+TYR       1.000
+SER       2.000
+GLU       4.000], ['cluster', [['cluster', 42269,          number
+residue        
+GLY           1
+LYS           2
+THR           3
+ASP           3], ['cluster', [['cluster', 72058,          number
+residue        
+LYS           2
+SER           2
+ASP           4
+GLU           4], ['cluster', [['cluster', [['cluster', 1806,          number
+residue        
+HIS           8
+ASP           2], ['cluster', 57644,          number
+residue        
+LYS           1
+SER           1
+ASP           2
+GLU           2]],          number
+residue        
+HIS        6.00
+ASP        3.25
+LYS        2.00
+THR        2.00], ['cluster', [['cluster', [['cluster', 45127,          number
+residue        
+HIS           8
+ASP           2], ['cluster', 38472,          number
+residue        
+LYS           1
+SER           1
+ASP           2
+GLU           2]],          number
+residue        
+HIS        6.00
+ASP        3.25
+LYS        2.00
+THR        2.00], ['cluster', [['cluster', [['cluster', [['cluster', [['cluster', 56029,          number
+residue        
+HIS           8
+ASP           2], ['cluster', 64392,          number
+residue        
+HIS           8
+LYS           2
+ASP           2]],          number
+residue        
+HIS         8.0
+ASP         5.0
+LYS         2.0
+THR         2.0], ['cluster', [['cluster', 91194,          number
+residue        
+GLU           1
+LYS           2
+ASP           2], ['cluster', 15813,          number
+residue        
+GLU           2
+LYS           2
+ASP           2]],          number
+residue        
+GLU         1.0
+LYS         2.0
+ASP         5.0
+THR         2.0]],          number
+residue        
+HIS         8.0
+ASP         6.5
+LYS         2.0
+THR         2.0], ['cluster', [['cluster', 24307,          number
+residue        
+HIS           8
+LYS           2
+ASP           2], ['cluster', 52235,          number
+residue        
+HIS           8
+ASP           2]],          number
+residue        
+HIS         8.0
+LYS         2.0
+ASP         5.0
+THR         2.0]],          number
+residue        
+HIS        8.00
+ASP        7.25
+LYS        2.00
+THR        2.00], ['cluster', [['cluster', 65815,          number
+residue        
+HIS           8
+ASP           2], ['cluster', 6040,          number
+residue        
+HIS           8
+LYS           2
+ASP           2]],          number
+residue        
+HIS         8.0
+ASP         5.0
+LYS         2.0
+THR         2.0]],          number
+residue        
+HIS       6.000
+ASP       5.875
+LYS       2.000
+THR       2.000]],          number
+residue        
+HIS       5.000
+ASP       3.875
+LYS       2.000
+THR       2.000]],          number
+residue        
+HIS       6.000
+ASP       3.625
+LYS       2.000
+THR       2.000
+SER       2.000
+GLU       4.000]],          number
+residue        
+LYS         2.0
+SER         2.0
+ASP         4.0
+GLU         4.0]],          number
+residue        
+GLY         1.0
+LYS         2.0
+THR         3.0
+ASP         3.5
+SER         2.0
+GLU         4.0]],          number
+residue        
+ARG      1.0000
+LYS      1.9375
+THR      1.8750
+ASP      4.8125
+ASN      1.0000
+TYR      1.0000
+SER      2.0000
+GLU      3.7500
+ILE      3.0000
+GLY      3.0000
+HIS      4.0000], ['cluster', [['cluster', [['cluster', [['cluster', [['cluster', 88042,          number
+residue        
+ILE           3
+GLY           3
+ASP           3
+GLU           3], ['cluster', 13052,          number
+residue        
+HIS           8
+ASP           2]],          number
+residue        
+ILE         3.0
+GLY         3.0
+ASP         5.5
+GLU         3.0
+LYS         2.0
+THR         2.0], ['cluster', [['cluster', 97218,          number
+residue        
+GLY           1
+LYS           2
+THR           3
+ASP           3], ['cluster', 81816,          number
+residue        
+HIS           8
+LYS           2
+ASP           2]],          number
+residue        
+GLY         1.0
+LYS         2.0
+THR         2.5
+ASP         5.5]],          number
+residue        
+ILE         3.0
+GLY         3.0
+ASP         5.0
+GLU         3.0
+LYS         2.0
+THR         2.0
+HIS         4.0], ['cluster', [['cluster', [['cluster', 20326,          number
+residue        
+HIS           4
+ASP           1], ['cluster', 63703,          number
+residue        
+HIS           4
+GLU           1
+ASP           2]],          number
+residue        
+HIS         4.0
+ASP         4.5
+LYS         2.0
+THR         2.0], ['cluster', [['cluster', 82993,          number
+residue        
+HIS           4
+LYS           1
+ASP           1], ['cluster', 63064,          number
+residue        
+HIS           4
+ASP           1]],          number
+residue        
+HIS         4.0
+LYS         1.5
+ASP         4.5
+THR         2.0]],          number
+residue        
+HIS         4.0
+ASP         4.5
+LYS         2.0
+THR         2.0]],          number
+residue        
+ILE        3.00
+GLY        3.00
+ASP        4.75
+GLU        3.00
+LYS        2.00
+THR        2.00
+HIS        4.00], ['cluster', [['cluster', [['cluster', 62186,          number
+residue        
+LYS           1
+SER           1
+ASP           2
+GLU           2], ['cluster', 25196,          number
+residue        
+GLU           3
+HIS           1
+LYS           1
+ASP           2]],          number
+residue        
+LYS         1.5
+SER         1.0
+ASP         5.0
+GLU         2.0
+THR         2.0], ['cluster', [['cluster', 38181,          number
+residue        
+LYS           1
+SER           1
+ASP           2
+GLU           2], ['cluster', 34088,          number
+residue        
+HIS           4
+PRO           1
+LYS           1
+ASP           2]],          number
+residue        
+LYS        1.50
+SER        1.00
+ASP        3.25
+GLU        2.00
+HIS        4.00
+THR        2.00]],          number
+residue        
+LYS        1.75
+SER        1.50
+ASP        4.50
+GLU        3.00
+THR        2.00]],          number
+residue        
+ILE       3.000
+GLY       3.000
+ASP       4.375
+GLU       3.500
+LYS       2.000
+THR       2.000
+HIS       4.000
+SER       2.000]],           number
+residue         
+ARG      1.00000
+LYS      1.96875
+THR      1.93750
+ASP      4.59375
+ASN      1.00000
+TYR      1.00000
+SER      2.00000
+GLU      3.62500
+ILE      3.00000
+GLY      3.00000
+HIS      4.00000]],           number
+residue         
+GLU      4.37500
+GLY      4.50000
+ALA      6.00000
+LYS      2.00000
+THR      2.50000
+ASP      4.53125
+SER      2.00000
+ILE      3.00000
+HIS      4.00000
+ARG      2.00000
+TRP      1.00000]],           number
+residue         
+ARG      2.50000
+SER      2.00000
+ASN      2.00000
+LYS      2.00000
+TYR      4.00000
+GLU      3.25000
+THR      2.75000
+ASP      4.15625
+TRP      1.00000
+HIS      4.00000]
+['cluster', [['cluster', 91426,          number
+residue        
+HIS           1
+ASN           2
+LYS           1
+ASP           2
+GLU           1], ['cluster', 29209,          number
+residue        
+HIS           4
+GLU           1
+ASP           2]],          number
+residue        
+HIS        2.50
+ASN        2.00
+LYS        1.50
+ASP        3.25
+GLU        1.00
+THR        2.00]
+
+Cluster 2
+------------

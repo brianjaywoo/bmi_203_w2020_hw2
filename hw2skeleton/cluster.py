@@ -366,52 +366,30 @@ def cluster_hierarchically(active_sites):
 
 #-----FUNCTIONS TO COMPUTE QUALITY OF CLUSTERING AND COMPARE CLUSTERING METHODS----------#
 
+def return_silhouette_score (clusters, type_of_clustering):
+    #Call below procedures to handle this logic to feed into sklearn.metrics.silhouette_score.
 
-def compute_distance (clusters):
-    residues_only = []
-    for i in clusters:
-        residues = i[1:]
-        residues = [i[0] for i in residues] #only get the AA residues
-        residues_only.extend(residues)
-    convert_to_df = []
-    for i in residues_only:
-        add_to_df = []
-        for j in residues_only:
-            distance = compute_similarity(i, j)
-            add_to_df.append(distance)
-        convert_to_df.append(add_to_df)
-    distance_df = pd.DataFrame(convert_to_df)
-    print('the final dataframe', distance_df)
-    return distance_df
+    #Extract labels in relevant format for calculating score.
+    print('type of clustering is', type_of_clustering)
+    labels = extract_labels (clusters, type_of_clustering)
 
-#Return an amino acid residue instance from a hier. tree instance defined in this document.
+    #Compute distance between all active sites and all other active sites.
+    print('The labels are', labels, 'and the length of labels is', len(labels))
+    distance_df = compute_distance(clusters, type_of_clustering)
 
-def return_tree (structure):
-    if isinstance(structure[1], ActiveSite):
-        return structure
-    else:
-        left = structure[1][0]
-        right = structure[1][1]
-        return [['new_cluster', return_tree(left)], ['new_cluster', return_tree(right)]]
+    #Compute a single scalar of silhouette_score.
+    silhouette_score = metrics.silhouette_score(distance_df, labels, metric = 'precomputed')
+    print('Silhouette score for k_means is', silhouette_score)
 
-def compute_cut (hierarchical_cluster):
-    #Naively: let's just compare the distance between the left and rightmost clusters.
-    #There is a more elegant way to do this that uses knowledge of trees I feel, but it's a little beyond me right now.
-    clusters_with_distance_dfs = []
-    tree = hierarchical_cluster[0]
-    tree = return_tree(tree)
-    #cluster_list = travel_tree(tree)
-    print('the cluster list is', tree)
+    return silhouette_score
 
-    clusters_with_distance_dfs.append(['cluster' + str(counter)], df)
-
-    #for i in range (0, cut):
-
+#This function extracts relevant labels for feeding into sklearn.metric's silhouette_score calculator.
 
 def extract_labels (clusters, type_of_clustering):
     #Two different ways to extract labels depending on whether k-means or agglomerative clustering chosen
     if type_of_clustering== '-H':
-        clusters = compute_cut(clusters)
+        clusters = bisect_cut(clusters)
+
     labels = []
     #Clusters here follow [['cluster0', [residues].....]]
     for i in clusters:
@@ -424,17 +402,82 @@ def extract_labels (clusters, type_of_clustering):
 
     return labels
 
-def return_silhouette_score (clusters, type_of_clustering):
-    #Call above procedures to handle this logic to feed into sklearn.metrics.silhouette_score
-    print('type of clustering is', type_of_clustering)
-    labels = extract_labels (clusters, type_of_clustering)
-    print('The labels are', labels, 'and the length of labels is', len(labels))
-    distance_df = compute_distance(clusters)
-    silhouette_score = metrics.silhouette_score(distance_df, labels, metric = 'precomputed')
-    print('Silhouette score for k_means is', silhouette_score)
-    return silhouette_score
+#This function is specific to return exactly two clusters from a hierarchical_cluster that arises from
+#output from my hierarchical_cluster function. It works by extending two lists with
+#the relevant amino acid residues, using nonlocal as a way to bypass messy data structure problems
+#that could arise from having to traverse lists (a nested version of which stores the hierarchical_cluster output).
+
+def bisect_cut (hierarchical_cluster):
+
+    #Naively: let's just compare the distance between the left and rightmost clusters.
+
+    left_cluster = []
+    right_cluster = []
+
+    #Define a 'tree traversal' helper function within the outer one for use with nonlocal
+    def retrieve_clusters (structure, right = False):
+        nonlocal left_cluster
+        nonlocal right_cluster
+        if isinstance(structure[1], ActiveSite):
+            if right:
+                right_cluster.extend([structure[1]])
+            else:
+                left_cluster.extend([structure[1]])
+            pass
+        else:
+            left = structure[1][0]
+            right = structure[1][1]
+            return [retrieve_clusters(left), retrieve_clusters(right)]
+
+    #The top level is a list of length 1
+    top_level = hierarchical_cluster
+    tree = retrieve_clusters(top_level)
+
+    #The correct structure to feed into compute_distance below
+    cluster_list = [['cluster0', left_cluster], ['cluster1', right_cluster]]
+    print('the clusters look like', cluster_list)
+
+    return cluster_list
+
+#This function computes distance between all clusters fed in and returns an
+#n x n data matrix with distances (so 0's along the diagonals).
+
+def compute_distance (clusters, type_of_clustering):
+    residues_only = []
+    if type_of_clustering== '-H':
+        clusters = bisect_cut(clusters)
+        for i in clusters:
+        #Just get residues for purposes of calculating distances
+            residues = i[1]
+            residues_only.extend(residues)
+    else:
+        for i in clusters:
+        #Just get residues for purposes of calculating distances
+            print('i is like', i)
+            residues = i[1:]
+            residues = [i[0] for i in residues] #only get the AA residues
+            residues_only.extend(residues)
+
+    #Calculate distance and convert the list of distance lists, to a pandas DataFrame
+    convert_to_df = []
+    for i in residues_only:
+        add_to_df = []
+        for j in residues_only:
+            distance = compute_similarity(i, j)
+            add_to_df.append(distance)
+        #Second append statement to append list of distances for a particular residue, to the 'outer list'
+        convert_to_df.append(add_to_df)
+
+    #Convert the list of distance lists, to a pd.DataFrame
+    distance_df = pd.DataFrame(convert_to_df)
+
+    #0's on the diagonal
+    print('The final dataframe looks like', distance_df)
+    return distance_df
 
 def compare_clusterings ():
-    return []
+    #This is not implemented due to inability on my end. However, I describe what would have been done here in the
+    #actual assignment pdf.
+    pass
 
 #---------------------SECTION END---------------------#

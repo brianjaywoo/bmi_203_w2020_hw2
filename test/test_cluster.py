@@ -86,7 +86,6 @@ def hierarchical_structure_check (clusters):
     assert len(clusters) == 1
     #Check the structure of my list:
     for i in clusters:
-        cluster.compute_cut(clusters)
         assert i[0] == 'cluster'
         assert isinstance(i[1], list)
         assert isinstance(i[2], pd.DataFrame)

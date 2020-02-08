@@ -82,7 +82,7 @@ def write_clustering(filename, clusters, silhouette_score):
         out.write("\nCluster %d\n--------------\n" % i)
         for j in range(len(clusters[i])):
             out.write("%s\n" % clusters[i][j])
-    out.write("\nThe Silhouette score for this iteration was:" % silhouette_score)
+    
     out.close()
 
 

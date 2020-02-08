@@ -15,10 +15,12 @@ if clustering_type == '-P':
     print("Clustering using Partitioning method")
     clustering = cluster_by_partitioning(active_sites)
     silhouette_score = return_silhouette_score(clustering, clustering_type)
+    print('silhouette_score was', silhouette_score)
     write_clustering(sys.argv[3], clustering, silhouette_score)
 
 if clustering_type == '-H':
     print("Clustering using hierarchical method")
     clusterings = cluster_hierarchically(active_sites)
-    silhouette_score = return_silhouette_score(clustering, clustering_type)
+    silhouette_score = return_silhouette_score(clusterings, clustering_type)
+    print('silhouette_score was', silhouette_score)
     write_mult_clusterings(sys.argv[3], clusterings)
